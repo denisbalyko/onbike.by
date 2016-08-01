@@ -82,14 +82,14 @@ UID = "93e71af0d36f45de941a5ce377c9cda7"
 
 #print "INIT"
 #init_app()
-print "POINTS"
-get_points()
-print "ADD POINT"
-test_add_point(UID)
-print "GET MESSAGES"
-get_messages(UID)
-print "CHANGE MESSAGES"
-change_message(UID, 5)
-print "UPDATE POINT"
-update_point(UID)
+# print "POINTS"
+# get_points()
+# print "ADD POINT"
+# test_add_point(UID)
+# print "GET MESSAGES"
+# get_messages(UID)
+# print "CHANGE MESSAGES"
+# change_message(UID, 5)
+# print "UPDATE POINT"
+# update_point(UID)
 

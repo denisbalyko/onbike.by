@@ -12,22 +12,22 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AddField(
-            model_name='message',
-            name='photos',
-            field=models.ManyToManyField(to='map.Photo'),
-            preserve_default=True,
-        ),
-        migrations.AddField(
-            model_name='message',
-            name='point',
-            field=models.ForeignKey(to='map.Point', null=True),
-            preserve_default=True,
-        ),
-        migrations.AddField(
-            model_name='message',
-            name='track',
-            field=models.ForeignKey(to='map.Track', null=True),
-            preserve_default=True,
-        ),
+        # migrations.AddField(
+        #     model_name='message',
+        #     name='photos',
+        #     field=models.ManyToManyField(to='map.Photo'),
+        #     preserve_default=True,
+        # ),
+        # migrations.AddField(
+        #     model_name='message',
+        #     name='point',
+        #     field=models.ForeignKey(to='map.Point', null=True),
+        #     preserve_default=True,
+        # ),
+        # migrations.AddField(
+        #     model_name='message',
+        #     name='track',
+        #     field=models.ForeignKey(to='map.Track', null=True),
+        #     preserve_default=True,
+        # ),
     ]

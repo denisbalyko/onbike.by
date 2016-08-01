@@ -1,0 +1,22 @@
+{
+  "project_name": "onbike.by",
+  "git_repository": "origin",
+  "stages": {
+    "stable": {
+      "name": "stable",
+      "host": "188.166.55.242",
+      "user": "root",
+      "vcs_branch": "master",
+      "code_src_directory": "/home/prod/source",
+      "restart_command": "supervisorctl restart gunicorn_production && service nginx reload"
+    },
+    "development": {
+      "name": "stage",
+      "host": "188.166.55.242",
+      "user": "root",
+      "vcs_branch": "dev",
+      "code_src_directory": "/home/dev/source",
+      "restart_command": "supervisorctl restart gunicorn_development && service nginx reload"
+    }
+  }
+}
